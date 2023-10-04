@@ -1,0 +1,25 @@
+{
+  "name": "bluc-syntax",
+  "displayName": "bluc-syntax",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bluc",
+      "aliases": ["bluc", "bluc"],
+      "extensions": [".bluc", ".jbluc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bluc",
+      "scopeName": "source.bluc",
+      "path": "./syntaxes/bluc.tmLanguage.json"
+    }]
+  }
+}
